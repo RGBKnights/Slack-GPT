@@ -22,7 +22,7 @@ public class GptClient
     {
         Models = new ModelInfo[]
         {
-            new("gpt-4", "gpt4"),
+            //new("gpt-4", "gpt4"),
             new("gpt-3.5-turbo", "chatGPT", "gpt-3", "gpt3", "turbo")
         };
     }

@@ -1,5 +1,81 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+# Visual Studio and C# specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# Visual Studio generated files
+.vs/
+[Bb]in/
+[Oo]bj/
+_ReSharper.*/
+packages/
+*.ncrunchsolution
+*.$safeprojectname$.suo
+*.bak
+*.cache
+*.dbmdl
+*.dll
+*.exe
+*.pdb
+*.log
+
+# User-specific files
+*.rsuser
+*.[Cc]ache
+*.[Pp]ublish.xml
+*.pfx
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]uild/
+[Ll]og/
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Visual Studio 2015 and 2017 cache/options directory
+.vs/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper.user
+*.[Rr]e[Ss]harper
+
+# JustCode
+.JustCode/
+
+# CodeRush
+.cr/
+
+# StyleCop
+_StyleCop/
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*ncrunch*.local.xml
+*.ncrunchsolution
+
+# TFS
+$tf/
+
+# Test Results
+[Tt]est[Rr]esult*/
+*.testsettings
+*.vsmdi
+
+# NPM packages
+node_modules/
+
+# Azure Functions localsettings file
+local.settings.json
+
+# localsettings file
+appsettings.json
