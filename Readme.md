@@ -1,11 +1,8 @@
 # Slack GPT Bot
 
-This repository contains a C#-based Slack GPT Bot that uses OpenAI's GPT model to answer users' questions. The
-implementation
-is based on Slack Sockets API, which means there is no need to host the bot on a server. The bot can be run on any
-machine.
-
-Did you like this tool? Give us a visit :) [https://prographers.com/](https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=readme&utm_content=like)
+This repository contains a C#-based Slack GPT Bot that uses OpenAI's GPT model to answer users' questions. 
+The implementation is based on Slack Sockets API, which means there is no need to host the bot on a server. 
+The bot can be run on any machine.
 
 ## Features
 
@@ -25,13 +22,6 @@ Did you like this tool? Give us a visit :) [https://prographers.com/](https://pr
 - SlackNet.AspNetCore
 
 ## Installation
-
-- Clone the repository
-
-```bash
-git clone https://github.com/Prographers/Slack-GPT.git
-cd Slack-GPT
-```
 
 - Restore nuget packages
 
@@ -85,7 +75,7 @@ or see #Docker for more information on how to host it.
    in the same thread to continue the conversation.
 
 You can start your message with the name of the model without parameters eg:
-> @GPT-4 turbo How are you today? 
+> @Bot turbo How are you today? 
 
 Will use gpt-3.5-turbo instead of the default gpt-4 model. See GptClient for more aliases.
 
@@ -169,14 +159,3 @@ Please remember to put the appsettings.json file in the same directory as the co
 
 Both images are not exposed on any port, and cannot be accessed from the outside. The only way to access the container is
 through the Slack API. The container is also running as a non-root user, and has no access to the host system.
-
-## Screenshot
-
-Notification messages!
-![Chat Example](.gitContent/chatExample.png)
-_________________________
-Thread support!
-![Chat Example Thread](.gitContent/chatExampleThread.png)
-_________________________
-Error messages!
-![Errors](.gitContent/errorMessages.png)
